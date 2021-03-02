@@ -1,0 +1,51 @@
+<html>
+
+    <head>
+        <meta charset="UTF-8">
+        <title>Título</title>
+    </head>
+
+    <body>
+        
+        <form>
+            <div>
+                Nome: <input type="text" name="nome" placeholder="Digite seu nome..." />
+            </div>
+            <div>
+                Idade: <input type="number" name="idade" placeholder="Digite sua idade..." />
+            </div>
+            <div>
+                E-mail: <input type="email" name="email" placeholder="Digite seu e-mail..." />
+            </div>
+            <div>
+                Cor: <input type="color" name="cor" />
+            </div>
+            <div>
+                Sexo: <input type="radio" name="sexo" value="M" /> Masculino <input type="radio" name="sexo" value="F" /> Feminino
+            </div>
+            <div>
+                Linguagens de Programação: 
+                <input type="checkbox" name="linguagem[]" value="C" /> C
+                <input type="checkbox" name="linguagem[]" value="C++" /> C++
+                <input type="checkbox" name="linguagem[]" value="PHP" /> PHP
+            </div>
+            <div>
+                Cidade:
+                <select>
+                    <option value="">Selecione...</option>
+                    <option value="1">Lavras</option>
+                    <option value="2">Três Corações</option>
+                </select>
+            </div>
+            <div>
+                Mensagem:
+                <textarea name="mensagem" cols="80" rows="10"></textarea>
+            </div>
+            <div>
+                <input type="submit" value="Enviar" />
+            </div>
+        </form>
+
+    </body>
+
+</html>
