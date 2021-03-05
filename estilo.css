@@ -1,0 +1,22 @@
+.form-div{
+    margin: 10px 20px 30px 30px;
+    border: 1px solid #000;
+    padding: 20px;
+}
+
+.form-input{
+    width: 550px;
+}
+
+form{
+    border: 1px solid black;
+    width: 700px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+label{
+    display: block;
+    margin-bottom: 12px;
+    font-weight: bold;
+}

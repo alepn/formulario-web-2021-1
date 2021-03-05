@@ -3,45 +3,51 @@
     <head>
         <meta charset="UTF-8">
         <title>Título</title>
+        <link rel="stylesheet" href="estilo.css" />
     </head>
 
     <body>
         
         <form>
-            <div>
-                Nome: <input type="text" name="nome" placeholder="Digite seu nome..." />
+            <div id="div-nome" class="form-div">
+                <label>Nome:</label>
+                <input type="text" class="form-input" name="nome" placeholder="Digite seu nome..." />
             </div>
-            <div>
-                Idade: <input type="number" name="idade" placeholder="Digite sua idade..." />
+            <div id="div-idade" class="form-div">
+                <label>Idade:</label>
+                <input type="number" class="form-input" name="idade" placeholder="Digite sua idade..." />
             </div>
-            <div>
-                E-mail: <input type="email" name="email" placeholder="Digite seu e-mail..." />
+            <div id="div-email" class="form-div">
+                <label>E-mail:</label>
+                <input type="email" class="form-input" name="email" placeholder="Digite seu e-mail..." />
             </div>
-            <div>
-                Cor: <input type="color" name="cor" />
+            <div class="form-div">
+                <label>Cor:</label>
+                <input type="color" name="cor" />
             </div>
-            <div>
-                Sexo: <input type="radio" name="sexo" value="M" /> Masculino <input type="radio" name="sexo" value="F" /> Feminino
+            <div class="form-div">
+                <label>Sexo:</label>
+                <input type="radio" name="sexo" value="M" /> Masculino <input type="radio" name="sexo" value="F" /> Feminino
             </div>
-            <div>
-                Linguagens de Programação: 
+            <div class="form-div">
+                <label>Linguagens de Programação:</label>
                 <input type="checkbox" name="linguagem[]" value="C" /> C
                 <input type="checkbox" name="linguagem[]" value="C++" /> C++
                 <input type="checkbox" name="linguagem[]" value="PHP" /> PHP
             </div>
-            <div>
-                Cidade:
+            <div class="form-div">
+                <label>Cidade:</label>
                 <select>
                     <option value="">Selecione...</option>
                     <option value="1">Lavras</option>
                     <option value="2">Três Corações</option>
                 </select>
             </div>
-            <div>
-                Mensagem:
+            <div class="form-div">
+                <label>Mensagem:</label>
                 <textarea name="mensagem" cols="80" rows="10"></textarea>
             </div>
-            <div>
+            <div class="form-div">
                 <input type="submit" value="Enviar" />
             </div>
         </form>
