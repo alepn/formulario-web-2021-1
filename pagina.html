@@ -1,0 +1,87 @@
+<html>
+
+    <head>
+        <meta charset="UTF-8">
+        <title>Página</title>
+
+        <link rel="stylesheet" type="text/css" href="estilo.css" />
+        <script type="text/javascript" src="funcoes.js"></script>
+    </head>
+
+    <body>
+
+        <!-- Cabeçalho -->
+        <header>
+            <h1>Minha Página</h1>
+            <p>Bem-vindo(a) ao meu site!</p>
+        </header>
+
+        <!-- Menu -->
+        <div id="menu">
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Sobre</a></li>
+            </ul>
+        </div>
+
+        <!-- Conteúdo da página -->
+        <div id="main">
+            <!-- Área central -->
+            <div class="conteudo">
+                <div id="div-form">
+                    <h2>Cadastre-se</h2>
+                    <form onsubmit="return enviarFormulario(this);">
+                        <div>
+                            <label>Nome</label>
+                            <input id="nome" class="form-input" type="text" name="nome" />
+                        </div>
+                        <div>
+                            <label>E-mail</label>
+                            <input id="email" class="form-input" type="email" name="email" />
+                        </div>
+                        <div>
+                            <label>Telefone</label>
+                            <input id="telefone" class="form-input" type="text" name="telefone" />
+                        </div>
+                        <button>Cadastrar</button>
+                    </form>
+                    <table>
+                        <thead>
+                            <tr>
+                                <th>
+                                    Nome
+                                </th>
+                                <th>
+                                    E-mail
+                                </th>
+                                <th>
+                                    Telefone
+                                </th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>
+                                    Alexandre
+                                </td>
+                                <td>
+                                    email@email.com
+                                </td>
+                                <td>
+                                    (35) 11111-1111
+                                </td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </div>
+
+        <!-- Rodapé -->
+        <div id="footer">
+            <p>Copyright</p>
+        </div>
+
+    </body>
+
+</html>
