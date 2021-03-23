@@ -30,7 +30,7 @@
             <div class="conteudo">
                 <div id="div-form">
                     <h2>Cadastre-se</h2>
-                    <form onsubmit="return enviarFormulario(this);">
+                    <form method="POST" action="" onsubmit="return enviarFormulario(this);">
                         <div>
                             <label>Nome</label>
                             <input id="nome" class="form-input" type="text" name="nome" />
@@ -44,8 +44,9 @@
                             <input id="telefone" class="form-input" type="text" name="telefone" />
                         </div>
                         <button>Cadastrar</button>
+                        <button type="reset">Limpar</button>
                     </form>
-                    <table>
+                    <table class="hidden">
                         <thead>
                             <tr>
                                 <th>
@@ -60,17 +61,6 @@
                             </tr>
                         </thead>
                         <tbody>
-                            <tr>
-                                <td>
-                                    Alexandre
-                                </td>
-                                <td>
-                                    email@email.com
-                                </td>
-                                <td>
-                                    (35) 11111-1111
-                                </td>
-                            </tr>
                         </tbody>
                     </table>
                 </div>

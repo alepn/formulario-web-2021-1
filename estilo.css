@@ -63,3 +63,7 @@ table{
 table td, table th{
     border: 1px solid;
 }
+
+.hidden{
+    display: none;
+}
