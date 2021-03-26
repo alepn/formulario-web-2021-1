@@ -5,7 +5,6 @@
         <title>Página</title>
 
         <link rel="stylesheet" type="text/css" href="estilo.css" />
-        <script type="text/javascript" src="funcoes.js"></script>
     </head>
 
     <body>
@@ -30,7 +29,7 @@
             <div class="conteudo">
                 <div id="div-form">
                     <h2>Cadastre-se</h2>
-                    <form method="POST" action="" onsubmit="return enviarFormulario(this);">
+                    <form method="POST" action="">
                         <div>
                             <label>Nome</label>
                             <input id="nome" class="form-input" type="text" name="nome" />
@@ -43,7 +42,7 @@
                             <label>Telefone</label>
                             <input id="telefone" class="form-input" type="text" name="telefone" />
                         </div>
-                        <button>Cadastrar</button>
+                        <button id="botao-cadastrar">Cadastrar</button>
                         <button type="reset">Limpar</button>
                     </form>
                     <table class="hidden">
@@ -72,6 +71,8 @@
             <p>Copyright</p>
         </div>
 
+        <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+        <script type="text/javascript" src="funcoes.js"></script>
     </body>
 
 </html>
